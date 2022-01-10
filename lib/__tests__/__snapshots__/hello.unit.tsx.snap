@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button test should be a div tag 1`] = `
+<button>
+  按钮123
+</button>
+`;
