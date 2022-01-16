@@ -1,2 +1,2 @@
 #!/bin/env bash
-npm version $1 && git push origin main
+npm version "$1" && git push origin main
