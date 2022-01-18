@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom'
 import { Icon } from "../lib/index";
 
 const App = () => {
-  return <Icon name={'alipay'} />
+  return (
+    <>
+      <h1>新增文字</h1>
+      <Icon name={'alipay'} />
+    </>
+  )
 }
 
 ReactDOM.render(<App />, document.getElementById('app'))
