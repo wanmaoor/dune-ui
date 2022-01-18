@@ -101,6 +101,7 @@
   },
   "include": [
     "lib/**/*",
+    "site/**/*"
   ],
   "exclude": [
     "node_modules",
