@@ -4,6 +4,9 @@ const base = require('./webpack.config');
 
 module.exports = Object.assign({}, base, {
   mode: 'development',
+  entry: {
+    site: './site/index.tsx'
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: "dune 组件库",
